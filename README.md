@@ -14,7 +14,7 @@ This project uses the **HC-SR04 Ultrasonic Sensor** with an **Arduino Uno** to m
 
 ---
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | HC-SR04 Pin | Arduino Pin |
 |-------------|-------------|
@@ -31,8 +31,9 @@ This project uses the **HC-SR04 Ultrasonic Sensor** with an **Arduino Uno** to m
 - The **Echo pin** receives the reflected signal
 - Arduino calculates distance using the speed of sound
 
+---
+## Code
 ```cpp
-## Arduino Code
 const int trigPin = 9;
 const int echoPin = 10;
 long duration;
